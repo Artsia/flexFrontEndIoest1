@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:hsl(36, 100%, 99%);
+    
+}
+
+
+.nav-flex-container{
+   display: flex;
+   padding: 20px;
+   background-color: hsl(36, 100%, 99%);
+   justify-content: center;
+}
+
+.nav-item nav ul{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap; 
+}
+
+.nav-item ul .nav-items{
+    justify-content: space-around;
+    color: hsl(240, 100%, 5%);
+    padding: 20px 60px;
+    
+}
+
+.nav-items a{
+    font-style: oblique;
+    font-weight:750;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*BODY mid div SECTION**/
+
+.mid-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.first-flex{
+    margin-right: 15px ;
+   /**contains
+   image-item and inner-txt-btn-flex-item div
+   */
+   
+}
+
+.image-item{
+    background-image: url("./images/image-web-3-desktop.jpg");
+    background-size: cover;
+    height: 250px;
+}
+
+.image-item #img{
+    width: 500px;
+}
+
+.inner-txt-btn-flex-item{
+    display: flex;
+    height:250px;
+    align-items: center; 
+}
+
+/*bright..text section*/
+.text-item{
+    color:hsl(240, 100%, 5%);
+    width: 50%;
+}
+
+.ptbi{
+    margin: 0;
+    padding-bottom: 2px;
+    color: gray;
+
+}
+ 
+.text-item h1{
+    margin:0px 10px;
+    
+}
+
+.text-button-item button { 
+    
+    color:white;
+    background-color: rgb(207, 81, 123);
+    margin-top:25px;
+    padding:10px 40px;
+    font-weight: 700;
+}
+
+.text-button-item button:hover{
+    background-color: rgb(197, 156, 80);
+}
+
+/*second-flex-item*/
+
+.second-flex-item{
+    color: white;
+    background-color:  hsl(240, 100%, 5%);
+    
+}
+
+.news-items{   
+    border-bottom: 1px solid white;
+    margin: 0px 15px; 
+}
+
+.news-item h4{
+    font-weight: bold;
+}
+
+#last-news-item{
+    border-bottom:none;
+}
+
+#news{
+    border:none;
+}
+
+#news h1:hover{
+    color: rgb(221, 185, 25);
+}
+
+/*THREE computer section*/
+
+.three-computer-flex-container{
+    display:flex;
+    margin-top:15px;
+    justify-content: center;
+}
+
+.three-item{
+    display: flex;
+}
+
+.image-item-third{
+    display: flex;
+    height:300px;
+    align-items: center;
+    width: 50%;
+}
+
+.image-item-third img{
+    width: 100px;
+    height: 100px;
+}
+
+.info-item{
+    margin:20% 10px
+}
+
+.info-item h1{
+    color: hsl(233, 8%, 79%);
+}
+
+.info-item h3{
+    color:hsl(240, 100%, 5%);
+}
+
+.info-item p{
+    color:hsl(233, 8%, 79%);
+}

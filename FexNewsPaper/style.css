@@ -9,31 +9,43 @@ body{
     
 }
 
+p{
+    font-size: 15px;
+    color:hsl(233, 8%, 79%);
+}
 
 .nav-flex-container{
    display: flex;
    padding: 20px;
    background-color: hsl(36, 100%, 99%);
    justify-content: center;
+   justify-content: space-around;
+}
+
+.logo-image{
+   /*set in logo.svg file*/
 }
 
 .nav-item nav ul{
   display: flex;
   list-style: none;
-  flex-wrap: wrap; 
+  /*flex-wrap: wrap; */
 }
 
 .nav-item ul .nav-items{
-    justify-content: space-around;
-    color: hsl(240, 100%, 5%);
-    padding: 20px 60px;
-    
+    padding: 20px 20px;
 }
 
 .nav-items a{
-    font-style: oblique;
+    
     font-weight:750;
+    color: hsl(233, 8%, 79%);
     font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.nav-items a:hover{
+    color:rgb(207, 81, 123);
 }
 
 /*BODY mid div SECTION**/
@@ -76,13 +88,17 @@ body{
 .ptbi{
     margin: 0;
     padding-bottom: 2px;
-    color: gray;
+    color: hsl(233, 8%, 79%);
 
 }
  
 .text-item h1{
     margin:0px 10px;
     
+}
+
+.text-button-item{
+    width: 400px;
 }
 
 .text-button-item button { 
@@ -103,28 +119,25 @@ body{
 .second-flex-item{
     color: white;
     background-color:  hsl(240, 100%, 5%);
-    
+    width: 300px;
+}
+
+#h-Three-id{
+    color:rgba(240, 159, 10, 0.904);
 }
 
 .news-items{   
     border-bottom: 1px solid white;
-    margin: 0px 15px; 
+    margin: 45px 15px; 
 }
 
-.news-item h4{
-    font-weight: bold;
-}
 
 #last-news-item{
     border-bottom:none;
 }
 
-#news{
+#h-three-news-div{
     border:none;
-}
-
-#news h1:hover{
-    color: rgb(221, 185, 25);
 }
 
 /*THREE computer section*/

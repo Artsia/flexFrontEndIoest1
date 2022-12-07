@@ -144,7 +144,7 @@ p{
 
 .three-computer-flex-container{
     display:flex;
-    margin-top:15px;
+    /*margin-top:15px;*/
     justify-content: center;
 }
 
